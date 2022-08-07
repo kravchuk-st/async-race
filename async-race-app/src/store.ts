@@ -4,10 +4,10 @@ export interface IWinData {[key: string]: number}
 
 export const state = {
   garagePage: 1,
-  carsCount: 4,
+  carsCount: 0,
   animation: {} as IAnimationData,
   winnerPage: 1,
-  winnersCount: 1,
+  winnersCount: 0,
   winId: '',
   sort: '',
   order: '',

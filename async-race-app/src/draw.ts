@@ -55,8 +55,8 @@ export const createPage = () => {
                 <th>Number</th>
                 <th>Car</th>
                 <th>Name</th>
-                <th class="sort-by-win">Wins</th>
-                <th class="sort-by-time">Best time(s)</th>
+                <th><button class="sort-by-win btn-reset">Wins</button></th>
+                <th><button class="sort-by-time btn-reset">Best time(s)</button></th>
               </tr>
             </thead>
             <tbody class="winners-table__body">
