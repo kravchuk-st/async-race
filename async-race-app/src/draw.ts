@@ -46,8 +46,8 @@ export const createPage = () => {
         </div>
         <div class="tab tab-second">
           <div class="winners-info">
-            <h1 class="winners-info__title">Winners (<span class="winners-length">1</span>)</h1>
-            <h2 class="winners-info__subtitle">Page #<span class="winners-page">1</span></h2>
+            <h1 class="winners-info__title">Winners (<span class="winners-length">${state.winnersCount}</span>)</h1>
+            <h2 class="winners-info__subtitle">Page #<span class="winners-page">${state.winnerPage}</span></h2>
           </div>
           <table class="winners-table">
             <thead>
