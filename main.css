@@ -594,6 +594,11 @@ input[type="text"]:not([disabled]) {
 	text-align: left;
 }
 
+.sort-by-win,
+.sort-by-time {
+	font-weight: 700;
+}
+
 .message {
 	width: max-content;
 	display: none;
