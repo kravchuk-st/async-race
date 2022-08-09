@@ -624,5 +624,12 @@ button[disabled] {
 	border-color: #2e2b2b;
 }
 
+@media (max-width: 768px) {
+	.message {
+    width: auto;
+    font-size: 28px;
+    text-align: center;
+	}
+}
 
 /*# sourceMappingURL=main.css.map*/
